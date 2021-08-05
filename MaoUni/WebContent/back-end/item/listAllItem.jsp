@@ -10,7 +10,7 @@
 
 <%
     ItemService itemSvc = new ItemService();
-    List<ItemVO> list = itemSvc.getAll();
+    List<ItemVO> list = itemSvc.getAllByStatus();
     pageContext.setAttribute("list",list);
 %>
 

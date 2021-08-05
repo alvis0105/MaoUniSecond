@@ -14,6 +14,7 @@ public class ItemVO implements java.io.Serializable{
 	private Date itemUpdate; //上次修改狀態時間
 	private String itemPhotoFirst;
 	private String itemTypeName;
+
 	
 	public Integer getItemId() {
 		return itemId;
